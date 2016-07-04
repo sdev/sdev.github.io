@@ -23,10 +23,10 @@ permalink: /
                         <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
                         <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
                         <li>
-                            <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                            <a class="btn btn-sm set_en btn-default btn-rounded btn-outline">EN</a>
                         </li>
                         <li>
-                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                            <a class="btn btn-sm set_cn btn-default btn-rounded btn-outline">ZH</a>
                         </li>
 
                     </ul>
@@ -58,68 +58,6 @@ permalink: /
         </div>
     </div>
 </div>
-
-<section id="about_me" class="features">
-    <div class="container" id="i18_about_me">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
-                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
-            </div>
-        </div>
-        <div class="row">
-            <!-- python -->
-            <div class="col-sm-2 wow fadeInLeft">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-python"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- linux -->
-            <div class="col-sm-2 wow fadeInLeft">
-                <div class="team-member">            
-                    <div class="vote-icon">
-                        <i class="icon-shell"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- avatar -->
-            <div class="col-sm-4">
-                <div class="team-member wow zoomIn">
-                    <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">{{ site.author.last_name }}</span> {{ site.author.first_name }}</h4>
-                </div>
-            </div>
-            <!-- html -->
-            <div class="col-sm-2 wow fadeInRight">
-                <div class="team-member">
-                    <div class="vote-icon">
-                        <i class="icon-angular"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- docker -->
-            <div class="col-sm-2 wow fadeInRight">
-                <div class="team-member">            
-                    <div class="vote-icon">
-                        <i class="icon-docker"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><span data-i18n="about_me.des">
-                    I'm a creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.
-
-                    Working experience through entire software development cycle (from requirement analysis, design, coding, debugging, quality assurance to after-sale customer support.) in an agile environment.
-                </span></p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section id="project" class="project gray-section features">
     <div class="container" id="i18_projects">
@@ -215,7 +153,6 @@ permalink: /
 </section>
 
 <section id="blog" class="navy-section testimonials" style="margin-top: 0">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
@@ -225,8 +162,71 @@ permalink: /
             </div>
         </div>
     </div>
-
 </section>
+
+<section id="about_me" class="features">
+    <div class="container" id="i18_about_me">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- python -->
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-python"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- linux -->
+            <div class="col-sm-2 wow fadeInLeft">
+                <div class="team-member">            
+                    <div class="vote-icon">
+                        <i class="icon-shell"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- avatar -->
+            <div class="col-sm-4">
+                <div class="team-member wow zoomIn">
+                    <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+                    <h4><span class="navy">{{ site.author.last_name }}</span> {{ site.author.first_name }}</h4>
+                </div>
+            </div>
+            <!-- html -->
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">
+                    <div class="vote-icon">
+                        <i class="icon-angular"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- docker -->
+            <div class="col-sm-2 wow fadeInRight">
+                <div class="team-member">            
+                    <div class="vote-icon">
+                        <i class="icon-docker"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><span data-i18n="about_me.des">
+                    I'm a creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.
+
+                    Working experience through entire software development cycle (from requirement analysis, design, coding, debugging, quality assurance to after-sale customer support.) in an agile environment.
+                </span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section id="contact" class="contact features">
     <div class="container" id="i18_contact">
@@ -261,8 +261,6 @@ permalink: /
         </div>
     </div>
 </section>
-
-
 
 <script>
 
