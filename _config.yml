@@ -12,7 +12,7 @@ url: "http://www.jack003.com"
 # author
 author:
   name: 'sdev'
-  first_name: 'sdev'
+  first_name: 'SDEV'
   last_name: ''
   email: 'lslc.atwork@gmail.com'
   facebook_username: 'stevelongchen'
@@ -23,8 +23,6 @@ author:
 landing:
   home: 'Home'
   about: 'About'
-  career: 'Career'
-  skills: 'Skills'
   projects: 'Project'
   blog: 'Blog'
   contact: 'Contact'
