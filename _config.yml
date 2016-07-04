@@ -11,13 +11,13 @@ url: "http://www.jack003.com"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  name: 'sdev'
+  first_name: 'sdev'
+  last_name: ''
+  email: 'lslc.atwork@gmail.com'
+  facebook_username: 'stevelongchen'
+  github_username: 'sdev'
+  head_img: 'static/img/landing/sdev_200x200.jpg'
 
 # landing page
 landing:
