@@ -25,12 +25,12 @@ landing:
   about: 'About'
   projects: 'Project'
   blog: 'Blog'
-  contact: 'Contact'
+  contact: 'Follow Me'
 
 # my projects
 project:
   saplatform: 
-    name: 'Saplatform'
+    name: 'Pebble'
     url: '/Jack614/saplatform'
     img: 'static/img/landing/saplatform.jpg'
   jalpc: 
