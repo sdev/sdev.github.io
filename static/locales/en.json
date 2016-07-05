@@ -18,9 +18,6 @@
     "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
     "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
   },
-  "blog":{
-    "my_blog": "My Blog"
-  },
   "contact":{
     "contact_me": "Contact Me",
     "email": "E-Mail",

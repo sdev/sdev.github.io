@@ -21,9 +21,6 @@
     "jalpc": "Jalpc是一个非常简洁、漂亮和快速部署的Jekyll主题，它非常小巧但是影响很广，能非常好的适应所有设备。",
     "angularjs": "这是一个Angularjs写的前端应用，使用Jelyll部署在github的gh-pages上，后台使用Leancloud，你也可以使用Parse。"
   },
-  "blog":{
-    "my_blog": "博客"
-  },
   "contact":{
     "contact_me": "联系我",
     "email": "电子邮件",
