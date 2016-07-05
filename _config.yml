@@ -11,12 +11,12 @@ url: "http://sdev.github.io"
 
 # author
 author:
-  name: 'sdev'
+  name: 'SDEV'
   first_name: 'SDEV'
   last_name: ''
   email: 'lslc.atwork@gmail.com'
-  facebook_username: 'stevelongchen',
-  linkedin_username: 'stevelongchen',
+  facebook_username: 'stevelongchen'
+  linkedin_username: 'stevelongchen'
   github_username: 'sdev'
   head_img: 'static/img/landing/sdev_200x200.jpg'
 
