@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "SDEV"
   },
   "nav":{
     "home": "Home",
@@ -10,7 +10,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I'm a creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.\\<br\\>I have working experience span entire software development cycle (from requirement analysis, design, coding, debugging, quality assurance to after-sale customer support.) in an agile environment."
+    "des": "I'm a creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.\<br\>I have working experience span entire software development cycle (from requirement analysis, design, coding, debugging, quality assurance to after-sale customer support.) in an agile environment."
   },
   "projects":{
     "my_projects": "My Projects",
