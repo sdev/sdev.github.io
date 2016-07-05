@@ -39,7 +39,7 @@ project:
   android: 
     name: 'sAlarm'
     url: '/Jack614/Jack614.github.io'
-    img: 'static/img/landing/Android_Robot_170x198.jpg'
+    img: 'static/img/landing/Android_Robot_170x198.png'
 
 # blog index
 index:
