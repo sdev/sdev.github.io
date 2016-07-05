@@ -40,6 +40,18 @@ project:
     name: 'sAlarm'
     url: '/Jack614/Jack614.github.io'
     img: 'static/img/landing/Android_Robot_170x198.png'
+  jnippet: 
+    name: 'Jnippet'
+    url: '/Jack614/saplatform'
+    img: 'static/img/landing/Java_logo.jpg'
+  lyncode: 
+    name: 'Lyncode'
+    url: '/Jack614/jalpc_jekyll_theme'
+    img: 'static/img/landing/Lyncode_189x200.jpg'
+  pnippet: 
+    name: 'Pnippet'
+    url: '/Jack614/Jack614.github.io'
+    img: 'static/img/landing/Python_logo_200x200.png'
 
 # blog index
 index:
