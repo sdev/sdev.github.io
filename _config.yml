@@ -15,7 +15,8 @@ author:
   first_name: 'SDEV'
   last_name: ''
   email: 'lslc.atwork@gmail.com'
-  facebook_username: 'stevelongchen'
+  facebook_username: 'stevelongchen',
+  linkedin_username: 'stevelongchen',
   github_username: 'sdev'
   head_img: 'static/img/landing/sdev_200x200.jpg'
 
@@ -24,7 +25,7 @@ landing:
   home: 'Home'
   about: 'About'
   projects: 'Projects'
-  contact: 'Follow Me'
+  contact: 'Contact'
 
 # my projects
 project:
