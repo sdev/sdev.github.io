@@ -30,43 +30,28 @@ landing:
 project:
   pebble: 
     name: 'sFace'
-    url: '/Jack614/saplatform'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/pebble_logo.jpg'
   firefox: 
     name: 'sMateBlack'
-    url: '/Jack614/jalpc_jekyll_theme'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/firefox_logo_200x188.jpg'
   android: 
     name: 'sAlarm'
-    url: '/Jack614/Jack614.github.io'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/Android_Robot_170x198.png'
   jnippet: 
     name: 'Jnippet'
-    url: '/Jack614/saplatform'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/Java_logo.png'
   lyncode: 
     name: 'Lyncode'
-    url: '/Jack614/jalpc_jekyll_theme'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/Lyncode_189x200.png'
   pnippet: 
     name: 'Pnippet'
-    url: '/Jack614/Jack614.github.io'
+    url: '/sdev/PLACEHOLDER'
     img: 'static/img/landing/Python_logo_200x200.png'
-
-# blog index
-index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
-
-# donate
-donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
 
 # comment
 changyan:
