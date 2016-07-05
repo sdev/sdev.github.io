@@ -85,7 +85,6 @@ permalink: /
             <div class="col-sm-4">
                 <div class="team-member wow">
                     <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
-                    <h4><span class="navy">{{ site.author.last_name }}</span> {{ site.author.first_name }}</h4>
                 </div>
             </div>
             <!-- html -->
@@ -206,7 +205,7 @@ permalink: /
                 <ul class="list-inline social-icon">
                     <li>
                         <a href="https://github.com/{{ site.author.github_username }}" target="blank">
-                            <i class="fa fa-github fa-2x">
+                            <i class="fa fa-github fa-3x">
                             </i>
                         </a>
                     </li>
@@ -216,11 +215,23 @@ permalink: /
                         </i>
                     </a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" target="blank"><i class="fa fa-linkedin fa-4x"></i></a>
+                    <li>
+                        <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" target="blank">
+                            <i class="fa fa-linkedin fa-3x">
+                            </i>
+                        </a>
                     </li>
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter fa-5x"></i></a>
+                    <li>
+                        <a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank">
+                            <i class="fa fa-twitter fa-3x">
+                            </i>
+                        </a>
                     </li>
-                    <li><a href="mailto:{{ site.author.email }}" target="blank"><i class="fa fa-mail-reply"></i></a>
+                    <li>
+                        <a href="mailto:{{ site.author.email }}" target="blank">
+                            <i class="fa fa-mail-reply fa-3x">
+                            </i>
+                        </a>
                     </li>
                     <!-- <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a>
                     </li> -->
