@@ -62,49 +62,49 @@ permalink: /
         </div>
         <div class="row">
             <!-- python -->
-            <div class="col-sm-2 wow fadeInLeft">
+            <!--div class="col-sm-2 wow fadeInLeft">
                 <div class="team-member">
                     <div class="vote-icon">
                         <i class="icon-python"></i>
                     </div>
                 </div>
-            </div>
+            </div-->
             <!-- linux -->
-            <div class="col-sm-2 wow fadeInLeft">
+            <!--div class="col-sm-2 wow fadeInLeft">
                 <div class="team-member">            
                     <div class="vote-icon">
                         <i class="icon-shell"></i>
                     </div>
                 </div>
-            </div>
+            </div-->
             <!-- avatar -->
             <div class="col-sm-4">
-                <div class="team-member fadeInLeft">
+                <div class="team-member wow">
                     <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
                     <h4><span class="navy">{{ site.author.last_name }}</span> {{ site.author.first_name }}</h4>
                 </div>
             </div>
             <!-- html -->
-            <div class="col-sm-2 wow fadeInRight">
+            <!--div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
                         <i class="icon-angular"></i>
                     </div>
                 </div>
-            </div>
+            </div-->
             <!-- docker -->
-            <div class="col-sm-2 wow fadeInRight">
+            <!--div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">            
                     <div class="vote-icon">
                         <i class="icon-docker"></i>
                     </div>
                 </div>
-            </div>
+            </div-->
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p>
-                    A creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.<br />
+                <p class="">
+                    A creative, motivated and enthusiastic Automation Developer/QA Developer/software engineer/developer with years of experience in software development and software QA engineering.<br /><br />
 
                     Working experience through entire software development cycle (from requirement analysis, design, coding, debugging, quality assurance to after-sale customer support.) in an agile environment.
                 </p>
@@ -199,9 +199,6 @@ permalink: /
         <div class="row">
             <div class="col-lg-12 text-center fadeInLeft">
                 <a href="mailto:{{ site.author.email }}" class="btn btn-primary"><span data-i18n="contact.email">E-Mail</span></a>
-                <p class="m-t-sm"><span data-i18n="contact.follow">
-                    <h1>Follow Me</h1>
-                </span></p>
                 <ul class="list-inline social-icon">
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
                     </li>
@@ -211,6 +208,8 @@ permalink: /
                     </li>
                     <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a>
                     </li>
+                    <li><a href="mailto:{{ site.author.email }}" target="blank"><i class="fa fa-mail-reply"></i></a>
+                    </li>
                     <!-- <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a>
                     </li> -->
                 </ul>
@@ -218,7 +217,7 @@ permalink: /
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>SDEV &copy; JULY 2016 {{ site.title }}</strong></p>
+                <p><strong>{{ site.title }} &copy; JULY 2016</strong></p>
             </div>
         </div>
     </div>
